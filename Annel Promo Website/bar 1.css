@@ -1,0 +1,71 @@
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav a:hover {
+    background-color: #ff9ddd;
+}
+
+#Head1{
+    color: #ff3ab2;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 27%;
+    padding-left: 100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#Nutcracker{
+    text-align: center;
+    font-size: 28px;
+}
+
+#Head2{
+    color: #ff3ab2;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.column2 {
+    float: left;
+    width: 27%;
+    padding-left: 90px;
+}
+
+/* Clear floats after image containers */
+.winter::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#winterfest{
+    text-align: center;
+    font-size: 28px;
+}

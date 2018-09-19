@@ -1,0 +1,66 @@
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav a:hover {
+    background-color: #ff9ddd;
+}
+
+table.d {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#Head1{
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Text1{
+    color: #fc00a0;
+    text-align: center;
+    line-height: 0.8;
+    font-size: 35px;
+}
+
+h1{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding-left: 70px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Kavit helped with placing image floats in the center */
+
+ul{
+
+    font-size: 35px;
+
+}

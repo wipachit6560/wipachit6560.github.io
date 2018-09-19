@@ -1,0 +1,32 @@
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav a:hover {
+    background-color: #ff9ddd;
+}
+
+#Head1{
+    color: #ff3ab2;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Head2{
+    color: #ff3ab2;
+    text-align: center;
+    font-size: 35px;
+}
